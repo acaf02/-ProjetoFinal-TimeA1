@@ -1,9 +1,21 @@
 const openai = require('./openai')
 
+// Additional prompt sets
+const additionalPrompts = [
+  ['anime80s', 'cute'],
+  ['cinematic', 'illustration'],
+  ['gold', 'cyberpunk']
+]
+
 async function generateImg (prompt) {
   try {
+    // Randomly select an additional prompts set
+    const additionalPromptSet = additionalPrompts[Math.floor(Math.random() * additionalPrompts.length)]
+    // Add the main prompt and the additional prompts
+    const prompts = [prompt, ...additionalPromptSet]
+
     const { data } = await openai.createImage({
-      prompt,
+      prompt: prompts.join('\n'),
       size: '512x512'
     })
 
