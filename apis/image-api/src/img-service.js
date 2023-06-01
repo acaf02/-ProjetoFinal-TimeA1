@@ -17,7 +17,7 @@ async function generateImg (prompt) {
     const { data } = await openai.createImage({
       prompt: prompts.join('\n'),
       n: 1, //return more images...
-      size: '512x512'
+      size: '1024x1024'
     })
 
     return data.data
