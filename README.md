@@ -4,6 +4,8 @@ Este repositório apresenta o projeto de conclusão da trilha Blockchain Apprent
 ## Descrição do Projeto
 A aplicação é composta por duas APIs: uma API de Imagem que utiliza o OpenAI para gerar imagens com base em prompts, criar variações ou edições de imagens adicionadas por upload e uma API de Token que aproveita a API de Imagem, faz upload de imagens para o IPFS e utiliza a API do Headless Hathor Wallet para criar NFTs.
 
+Confira nossa apresentação no link a seguir: [Slides](https://drive.google.com/file/d/1bU3FMOlwGnB4KQ22qFG3SQIhq7RzzLSk/view?usp=sharing) 🐱🐱
+
 ## Pré-requisitos
 Antes de começar, certifique-se de ter os seguintes pré-requisitos instalados:
 
