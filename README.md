@@ -29,4 +29,4 @@ O repositório está organizado nas seguintes pastas:
 
 ## Devs
 
-[acaf02](https://github.com/acaf02), [Pquar](https://github.com/Pquar), [Bscanto](https://github.com/Bscanto), mentor: [@gabrielmissio](https://github.com/gabrielmissio).
+[flaviamoura](https://github.com/flaviamoura), [Pquar](https://github.com/Pquar), [Bscanto](https://github.com/Bscanto), mentor: [@gabrielmissio](https://github.com/gabrielmissio).
